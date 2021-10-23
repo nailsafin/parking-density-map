@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.polygon {
+    stroke: #000;
+    stroke-width: 2;
+    fill-opacity: 0.5;
+}
+
+.polygon-overlay {
+    stroke: #000;
+    stroke-width: 2;
+    fill-opacity: 0.75;
+}
+
+.polygon.polygon-active, .polygon-overlay.polygon-active {
+    stroke-width: 3;
+    fill-opacity: 1;
+    filter: grayscale(50%) brightness(125%);
+}
