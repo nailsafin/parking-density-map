@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Outdoors without cars</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+        <script type="text/javascript">
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        </script>
+        <script src="https://maps.api.2gis.ru/2.0/loader.js?skin=light"></script>
+        <script type="text/javascript" src="map_script.js"></script>
+        <link rel="stylesheet" href="page_style.css">
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
