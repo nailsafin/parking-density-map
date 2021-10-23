@@ -18,7 +18,7 @@ DG.then(function () {
       zoom: 14,
       zoomSnap: 0.3,
       zoomDelta: 0.3, 
-      maxBounds: DG.latLngBounds(DG.latLng(55.701068, 51.950027), DG.latLng(55.501478, 51.658565))
+      maxBounds: DG.latLngBounds(DG.latLng(55.701068, 52.000027), DG.latLng(55.551478, 51.728565))
     });
   
     /*k9a*/DG.polygon([[55.63183, 51.820575], [55.633466, 51.82041], [55.634329, 51.821735], [55.635524, 51.823542], [55.63465, 51.8268], [55.632904, 51.827007], [55.632878, 51.826505], [55.632036, 51.826585]], {className: 'polygon', fillColor: '#33b800'}).addTo(map).bindPopup('<h2>Квартал 9А</h2><br>Количество автомобилей: <strong>237</strong><br>Плотность парковки: <strong>2155 авто/км<sup>2</sup></strong>', {closeButton: false});
